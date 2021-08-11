@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login_ui/screens/login_screen.dart';
-import 'package:flutter_login_ui/screens/signup.dart';
+import 'package:flutter_login_ui/screens/welcome.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'LMS ACADMEY',
       debugShowCheckedModeBanner: false,
-      home: SignupScreen(),
+      home: WelcomeScreen(),
     );
   }
 }
